@@ -1,0 +1,126 @@
+body
+{
+    background-color: beige;
+}
+
+.conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgrey;
+    font-size: x-large;
+    height: 100px;
+    width: 98%;
+    padding: 15px;
+    border-radius: 15px;
+} 
+
+a
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+a:hover
+{
+    color: crimson;
+}
+
+img
+{
+    display: inline-block;
+}
+
+.fit-picture
+{
+    width: 500px;
+}
+
+.fit-picture2
+{
+    width: 400px;
+}
+
+#carre 
+{
+    width  : 150px;
+    height : 150px;
+    background : rgb(7, 60, 160);
+    border-top-right-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#cercle
+{
+    width : 150px;
+    height : 150px;
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+
+#rectangle
+{
+    width : 250px;
+    height: 150px;
+    background-color: rgb(7, 60, 160);
+    padding: 20px;
+    margin: 20px;
+}
+
+#parallelogramme {
+    width  : 300px;
+    height : 150px;
+    border-top  : 50px solid #43d47f;
+    border-left : 20px solid transparent;
+    position : relative;
+}
+
+#parallelogramme:after {
+    width  : 0;
+    height : 0;
+    content: '';
+    border-bottom : 50px solid #43d47f;
+    border-right  : 20px solid transparent;
+    border-left   : 20px solid transparent;
+    position : absolute;
+    top  : -50px;
+    right: -20px;
+}
+
+#rect-radius
+{
+    width  : 250px;
+    height : 150px;
+    background : rgb(7, 6, 160);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#rectangle2
+{
+    width: 250px;
+    height: 150px;
+    background-color: salmon;
+    transform: rotate(20deg);
+    padding: 20px;
+    margin: 20px;
+}
+
+.formes
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}

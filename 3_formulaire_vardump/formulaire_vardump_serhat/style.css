@@ -1,0 +1,30 @@
+
+@keyframes form {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(12000px);
+    }
+}
+
+form
+{
+    animation: form 2s;
+    text-align: right;
+
+}
+body{
+    display: block;
+    
+}
+
+@media screen and (min-width: 1024px) {
+    form {
+    background-color: rgb(146, 70, 70);
+    animation: form 0s slide-out;
+    }
+    body {
+        background-color: rgb(124, 103, 145);
+    }
+}

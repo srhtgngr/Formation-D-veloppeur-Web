@@ -1,0 +1,7 @@
+// AFFICHAGE DE LA LONGUEUR D'UN NOM
+
+
+
+NB <- Longueur(variable_chaîne)                     // Affecter la Longueur(variable_chaîne) à NB
+Lire "Entrez un nom : "                             // Entrez un nom au clavier
+Ecrire "Ce nom compte ", NB, " lettres"             // Affiche le résultat avec le nombre de lettres "ou peut etre pas"

@@ -1,0 +1,31 @@
+//inversion du contenu de 2 variables mémoires
+
+
+a <- 5                  //valeurs affectées
+b <- 3
+
+Lire                    //nouvelle affectation des valeurs
+c <- a
+a <- b 
+b <- c
+
+Ecrire                  //résultat des nouvelles valeurs
+a
+b
+
+
+
+/*  si je ne me trompe pas
+
+*   a = 5 , b = 3 
+*   c = a donc c = 5 puisque  a = 5
+*   a = b donc a = 3 puisque b = 3
+*   et b = c donc b = 5 puisque c = a = 5
+* 
+*   final
+*   a = 3
+*   b = 5 
+*/
+
+
+

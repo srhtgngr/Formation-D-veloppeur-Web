@@ -1,0 +1,20 @@
+// POLYNÔME DU SECOND DEGRE
+
+
+Lire                                            //entrer les valeur de a, b et c au clavier
+a
+b
+c
+
+POLINOME <- a * x ^ 2 * b * x + c               //équation du second degré
+DELTA <- b ^ 2 - 4 * a * c                      //DELTA est le nombre réel noté discriminant du trinome
+Ecrire DELTA                                    // Affiche le résultat de DELTA en fonction des valeurs a, b et c entrées et du résultat
+            DELTA < 0
+            Ecrire " L'équation n\'à pas de solutions"
+            DELTA  = 0
+            Ecrire " L'équation à une unique solution : x = - ( b / 2 * a ) "
+            DELTA > 0
+            Ecrire " L'équation a 2 solutions distinctes : 
+                    x1 = (- b - Sqrt(DELTA)) / (2 * a)
+                    ou
+                    x2 = (- b + Sqrt(DELTA)) / (2 * a) "

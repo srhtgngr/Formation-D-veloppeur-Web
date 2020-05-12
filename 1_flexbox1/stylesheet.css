@@ -1,0 +1,75 @@
+html
+{
+    height: 100%;
+}
+
+.image
+{
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+.titre
+{
+    display: center;   
+    text-align: center;
+    height: 150px;
+
+}
+
+.main
+{
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#texte
+{
+    display: block;
+    padding: auto;
+    margin-left: 150px;
+    width: 60%;
+    text-align: justify;
+}
+
+.liste
+{
+    width: 50%;
+}
+
+.container
+{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    text-transform: capitalize;
+}
+
+h1, h3
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2
+{
+    text-transform: uppercase;
+    text-align: left;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    align-content: space-between;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height: auto;
+    text-transform: capitalize;
+    opacity: 0.4;
+}

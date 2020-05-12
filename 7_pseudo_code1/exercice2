@@ -1,0 +1,25 @@
+//COMPARAISON SURFACE DE DEUX CERCLES
+
+
+rayon cercle 1 r1 <- 2                          //affectation des valeurs
+rayon cercle 2 r2 <- 3
+PI <- 3.14159
+
+
+Lire aire                                       //formule de calcul de l'aire d'un cercle 
+PI * r ^ 2
+
+Ecrire aire
+aire cercle 1 a1 = 12.56636
+aire cercle 2 a2 = 28.27431
+
+
+Lire aires                                      //comparaison des 2 cercles
+a2 > a1
+
+
+Lire soustraction                               //différence des 2 aires
+a2 - a1
+
+Ecrire résultat                                 //Afficeh le résultat du calcul
+15.70795

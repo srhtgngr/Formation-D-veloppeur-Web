@@ -1,0 +1,152 @@
+@media (max-width: 390px){
+    .logo{
+        display: none;
+    }
+    .logo2{
+        height: 50px;
+    }
+}
+@media (min-width: 391px){
+    .logo{
+        height: 50px;
+    }
+
+    .logo2{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    .logo{
+        height: 60px;
+    }
+}
+@media (min-width: 992px){
+    .logo{
+        height: 70px;
+    }
+}
+@media (min-width: 1200px){
+    .logo{
+        height: auto;
+    }
+}
+@media (max-width: 488px){
+    #account{
+        color: #000000;
+    }
+}
+
+html{
+    background-color: #07000028;
+}
+
+.form-dark .font-small {
+    font-size: 0.8rem; }
+
+.form-dark [type="radio"] + label,
+.form-dark [type="checkbox"] + label {
+    font-size: 0.8rem; }
+
+.form-dark [type="checkbox"] + label:before {
+    top: 2px;
+    width: 15px;
+    height: 15px; }
+
+.form-dark .md-form label {
+    color: #000000; }
+
+.form-dark input[type=email]:focus:not([readonly]) {
+    border-bottom: 1px solid #00C851;
+    -webkit-box-shadow: 0 1px 0 0 #00C851;
+    box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=email]:focus:not([readonly]) + label {
+    color: #000000; }
+
+.form-dark input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid #00C851;
+    -webkit-box-shadow: 0 1px 0 0 #00C851;
+    box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=password]:focus:not([readonly]) + label {
+    color: #000000; }
+
+.form-dark input[type="checkbox"] + label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    z-index: 0;
+    border: 1.5px solid #fff;
+    border-radius: 1px;
+    margin-top: 2px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
+
+.form-dark input[type="checkbox"]:checked + label:before {
+    top: -4px;
+    left: -3px;
+    width: 12px;
+    height: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent #00c851 #00c851 transparent;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%; }
+
+.form-dark .modal-header {
+    border-bottom: none;
+}
+#myModalLabel{
+    color: #000000;
+}
+    
+.image{
+    padding: 15px;
+    border: 5px black;
+}
+#achat{
+    position: absolute;
+}
+
+.foot {
+    text-align: center ;
+    position: bottom;
+    margin-bottom: 0%;
+    padding: 5%;
+    color: black;
+}
+
+.conteneur{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.anim_accueil{
+    width: 100%;
+    height: 0px;
+    padding-top: 66.66667%;
+    box-shadow: 0px 0px 20px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 20s ease-in-out infinite both;
+}
+.anim_accueil:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fondu{
+    0%{background-image: url(image_accueil/D.Hohmann-2013-Mongolie-4_.jpg);}
+    25%{background-image: url(image_accueil/IMG_1118.JPG);}
+    50%{background-image: url(image_accueil/IMG_1803.JPG);}
+    75%{background-image: url(image_accueil/IMG_2210.JPG);}
+    100%{background-image: url(image_accueil/Mongolie.JPG);}
+
+}

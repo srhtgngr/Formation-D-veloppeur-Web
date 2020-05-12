@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>formulaire php</title>
+    </head>
+    <body>
+        <form action="controller_insertion.php" method="POST">
+            <fieldset>
+                <legend>Formulaire</legend>
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom" placeholder="Nom" required autofocus>
+                </div>
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+                </div>
+                <div>
+                    <label for="mot_de_passe">Mot de Passe</label>
+                    <input type="password" name="mot_de_passe" id="mot_de_passe" placeholder="Votre Mot de Passe" required>
+                </div>
+                <div>
+                    <button type="submit">Valider</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

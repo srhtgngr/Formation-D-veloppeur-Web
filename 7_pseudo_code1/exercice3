@@ -1,0 +1,18 @@
+//SURFACE ET VOLUME D'UNE SPHERE
+
+//SURFACE D'UNE SPHERE
+
+PI <- 3.14159                       // On affecte PI
+Lire rayon                          // Entrer la valeur du rayon au clavier
+Surface <- 4 * PI * rayon ^ 2       // Formule de calcul de la surface d'une sphère
+Ecrire Surface                      // Afficher le résultat en fonction de la valeur du rayon entré
+
+
+
+//VOLUME D'UNE BOULE
+
+
+                                    // PI est déjà affecté plus haut donc pas besoin de renouveller
+lire rayon                          // Entrer la valeur du rayon au clavier
+Volume <- 4 / 3 * PI * rayon ^ 3    // Formule de calcul du volume d'une boule
+Ecrire Volume                       // Afficher le résultat en fonction de la valeur du rayon entré

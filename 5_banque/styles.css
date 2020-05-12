@@ -1,0 +1,56 @@
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: black;
+}
+
+
+nav li{
+    display: inline-block;
+    width: 10%;
+    height: 40px;
+    border-right: 1px solid grey;
+    text-align: center;
+    line-height: 40px;
+}
+
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+nav li :hover{
+    background-color: rgb(16, 196, 219);
+}
+
+div img{
+    display: block;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0    0   2px #666543,
+                 1px -1px 3px #857d50,
+                -2px -2px 4px #83663a,
+                 2px -4px 5px #6b4e35,
+                -2px -6px 6px #524743,
+                 0   -8px 7px #302d2d,
+                 1px -9px 8px #451b0e;
+}

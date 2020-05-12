@@ -1,0 +1,45 @@
+form{
+    padding-top: 1cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    box-sizing: content-box;
+    width: 42%;
+    margin-left: 5%; 
+}
+input[type=text] {
+    width: 95%;
+    height: 50%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 2px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+button {
+    display: inline-block;
+    background-color: black;
+    border-radius: 3px;
+    box-sizing: content-box;
+    margin-left: 5%;
+    border: 2px solid #cccccc;
+    color: #eeeeee;
+    text-align: left;
+    font-size: 10px;
+    padding: 15px;
+    margin-top: 23px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+containerorange{
+    
+}

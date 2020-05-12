@@ -1,0 +1,17 @@
+{
+    "name": "stagiaire/criminels",
+    "description": "criminels pour serhat",
+    "authors": [
+        {
+            "name": "srhtgngr",
+            "email": "serhatgungor01@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "serhat\\":"class"
+        }
+    }
+}

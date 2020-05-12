@@ -1,0 +1,64 @@
+// exercice 1A
+
+Dé <- 6facettes
+Lancer Dé
+Ecrire résultat
+calcul <- résultat x 2
+final <- calcul + 3
+
+a) 3 instructions
+b) n'importe quel entier x 2 = nb pair
+    n'importe quel nombre pair + 3 = nb impair
+    affichera toujours des entiers impairs
+c) 0 conditions
+
+
+
+
+
+
+// exercice 1B
+
+afichera « Votez pour Pedro. » la condition Si est valable
+donc ne teste pas la condition sinon 
+
+
+
+On a l’algorithme suivant.
+
+Variables :
+      type entier : a, b, c
+a ← 3
+b ← 7
+c ← 12
+Écrire « Entrer trois valeurs entières. »
+Lire a, b, c
+b ← a               // b = 3
+c ← a               // c = 3
+a ← b + c * 2       // a = 3 + 3 x 2 = 9
+Écrire « Le résultat est : 9 », a
+Si a égale 8 OU a ≥ 3 alors
+      Écrire « Votez pour Pedro. »
+Sinon si a ≥ 7
+      Écrire « Hola! »
+finsi
+Si on fait s’exécuter cet algorithme en lui donnant en entrée les valeurs 3, 7 et 12, qu’est-ce que l’algorithme affichera comme sortie ?
+
+
+
+
+
+
+
+// exercice 1C
+
+Variables
+        type entier : nbHeures, nbMinutes ,nbSecondes
+Lire nbHeures, nbMinutes
+Ecrire "Durée en heures et en minutes : "
+nbSecondes <- nbHeures x 3600 + nbMinutes x 60
+Si nbHeures < 0 OU nbMinutes < 0 alors
+        Ecrire "Le temps ne peut pas etre negatif"
+Sinon 
+        Ecrire "Voici le résultat en secondes : "
+finsi
