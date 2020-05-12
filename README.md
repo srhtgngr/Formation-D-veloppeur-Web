@@ -22,5 +22,5 @@ Diverses créations durant la formation
 14. [Functions PHP](14_fonctions_php)  
 15. [Pseudo code 2](15_pseudo_code2)  
 16. [Aventurier](16_aventurier)  
-17. [Intégration](17_exercice_integration)  
+17. [Integration](17_exercice_integration)  
 
