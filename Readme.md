@@ -1,10 +1,10 @@
 # Formation-Developpeur-Web
-*Formation développeur web et web mobile*
-*12/03/2020 au 08/10/2020* 
-Créations durant la formation
+*Formation développeur web et web mobile*  
+*12/03/2020 au 08/10/2020*  
+Diverses créations durant la formation  
 
--------------------------------------------
-## *Dépôt des exercices réalisés durant la formation*
+------------------------------------
+## *Dépôt des exercices réalisés durant la formation*  
 
 1. [Mini-projet flexbox](https://github.com/srhtgngr/Formation-Developpeur-Web/tree/master/1_flexbox1)  
 2. [les formes](https://github.com/srhtgngr/Formation-Developpeur-Web/tree/master/2_les_formes)  
