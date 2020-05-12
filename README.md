@@ -20,7 +20,7 @@ Diverses créations durant la formation
 12. [Projet criminels](12_criminels)  
 13. [Exercice Ajax](13_exo_ajax)  
 14. [Functions PHP](14_fonctions_php)  
-15. [Pseudo code 2](15%20_pseudo_code2/exercie_pseudo_code_serhat2)  
+15. [Pseudo code 2](15_pseudo_code2)  
 16. [Aventurier](16_aventurier)  
 17. [Intégration](17_exercice_integration)  
 
