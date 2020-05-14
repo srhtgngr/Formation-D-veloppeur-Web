@@ -72,7 +72,7 @@ class entretien
     {
         return $this->_type_entretien;
     }
-    1monaco
+    
     /**
      * Set the value of _type_entretien
      *
