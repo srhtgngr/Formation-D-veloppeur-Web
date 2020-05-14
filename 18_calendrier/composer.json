@@ -1,0 +1,17 @@
+{
+    "name": "stagiaire/calendrier",
+    "description": "",
+    "authors": [
+        {
+            "name": "srhtgngr",
+            "email": "serhatgungor01@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Calendar\\": "src/Calendar",
+            "App\\": "src/App"
+        }
+    },
+    "require": {}
+}
